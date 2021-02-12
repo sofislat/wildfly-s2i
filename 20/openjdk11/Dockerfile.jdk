@@ -2,9 +2,9 @@ FROM alpine:3.12
 
 ENV MAVEN_VERSION=3.6.3 \
 JDK_VERSION=openjdk11-jdk \
-WILDFLY_VERSION=https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final.tar.gz
+WILDFLY_VERSION=https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.tar.gz
 
-LABEL autor="Martin Vilche <mfvilche@gmail.com>" \
+LABEL autor="Sofis Solutions" \
       io.k8s.description="Compilador de aplicaciones java con maven s2i" \
       io.k8s.display-name="Java Applications" \
       io.openshift.tags="builder,java,maven" \
