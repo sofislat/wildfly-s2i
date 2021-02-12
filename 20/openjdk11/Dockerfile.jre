@@ -1,9 +1,9 @@
 FROM alpine:3.12
 
 ENV JDK_VERSION=openjdk11-jre \
-WILDFLY_VERSION=https://download.jboss.org/wildfly/20.0.0.Final/wildfly-20.0.0.Final.tar.gz
+WILDFLY_VERSION=https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.tar.gz
 
-LABEL autor="Martin Vilche <mfvilche@gmail.com>" \
+LABEL autor="Sofis Solutions" \
       io.k8s.description="Runtime image jdk alpine" \
       io.k8s.display-name="Java Applications" \
       io.openshift.tags="builder,java,maven,runtime" \
