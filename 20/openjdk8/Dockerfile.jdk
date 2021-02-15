@@ -1,7 +1,7 @@
 FROM alpine:3.12
 
 ENV MAVEN_VERSION=3.6.3 \
-JDK_VERSION=openjdk8-jdk \
+JDK_VERSION=openjdk8 \
 WILDFLY_VERSION=https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.tar.gz
 
 LABEL autor="Sofis Solutions" \
