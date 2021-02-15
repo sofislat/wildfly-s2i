@@ -1,6 +1,6 @@
 FROM alpine:3.12
 
-ENV JDK_VERSION=openjd11-jre \
+ENV JDK_VERSION=openjdk8-jre \
 WILDFLY_VERSION=https://download.jboss.org/wildfly/20.0.1.Final/wildfly-20.0.1.Final.tar.gz
 
 LABEL autor="Sofis Solutions" \
